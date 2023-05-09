@@ -9,10 +9,22 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
+}
+section {
+	width: 525px;
+	float: right;
+	padding: 0 20px;
+	padding-bottom: 20px;
+}
+aside {
+	width: 215px;
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -46,17 +58,16 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
+
 main {
-	clear: left;
-}
-main {
-	padding: 0 30px;
+	padding: 0;
 }
 main h1 {
+	color:#800000;
 	font-size: 150%;
-	padding: .3em 0;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0;
 }
 main h2 {
 	color: #800000;
@@ -97,6 +108,14 @@ article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
+article img {
+	float:right;
+	margin-top: .5em;
+	margin-left: 1.5em;
+	margin-bottom: .5em;
+	border: 1px solid #000000;
+	padding: 0;
+}
 
 /* the styles for the aside */
 
@@ -111,6 +130,7 @@ aside img {
 /* the styles for the footer */
 footer {
 	background-color: #931420;
+	clear:both
 }
 footer p {
 	text-align: center;

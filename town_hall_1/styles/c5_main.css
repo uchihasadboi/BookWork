@@ -4,27 +4,43 @@
 }
 
 /* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
+	width:600px;
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin-left: 10px;
+    margin:0 auto;
+	border:3px solid #931420;
+	background-color: #fffded;	
+}
+html {
+	background-color: #ffffff;
 }
 a:focus, a:hover {
 	font-style: italic;
 }
+header {
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, #ffffff 50%, #f6bb73 80%, #f6bb73 100%);
+}
 /* the styles for the header */
 header h2 {
-	font-size: 175%;
+	font-size: 170%;
 	color: var(--global-color-1);
-	text-indent: 30px;
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 header img {
 	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
@@ -32,22 +48,29 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 main h1 {
 	font-size: 150%;
-	padding: .3em 0;
+	padding-left: 1.5em;
+	border: 3px double #931420;
+	border-radius: .3em;
+	box-shadow: .15em .15em 0 0;
+	margin-bottom: .5em;
+	margin-right: 2em;
+	background-color: #ffffff;
 }
 main h2 {
 	color: var(--global-color-1);
 	font-size: 130%;
-	padding: .5em 0 .25em 0;
 }
 main h3 {
 	font-size: 105%;
-	padding-bottom: .25em;
 }
 main img {
 	padding-bottom: 1em;
+	
 }
 main p {
 	padding-bottom: .5em;
@@ -55,9 +78,11 @@ main p {
 main blockquote {
 	padding: 0 2em;
 	font-style: italic;
+	margin-bottom: .5em;
 }
 main ul {
 	padding: 0 0 .25em 1.25em;
+	margin-bottom: .5em;
 }
 main li {
 	padding-bottom: .35em;
@@ -67,4 +92,6 @@ main li {
 footer p {
 	text-align: center;
 	padding: 1em 0;
+	background-color: #931420;
+	color:#ffffff;
 }

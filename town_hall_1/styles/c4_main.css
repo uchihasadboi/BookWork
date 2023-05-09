@@ -18,6 +18,9 @@ header img {
 	font-style: italic;
 	text-indent: 30px;
 }
+.shadow {
+	text-shadow: 2px 2px #800000;
+}
 
 /* the styles for the main content */
 main {
