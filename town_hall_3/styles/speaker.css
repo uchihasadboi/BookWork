@@ -31,6 +31,7 @@ header {
 	    30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
 }
 header h2 {
+	font-family: Cherry Bomb One;
 	font-size: 175%;
 	color: #800000;
 }
@@ -120,9 +121,14 @@ article h2 {
 	font-size: 115%;
 	padding: 0 0 .25em 0;
 }
-article img {
+article figure {
 	float: right;
 	margin: .5em 0 1em 1em;
+	border-bottom: 1px solid black;
+	font-weight: bolder;
+}
+article figure img {
+	margin-bottom: .5em;
 	border: 1px solid black;
 }
 
